@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		900EF8CE1DE55A4100BFF28A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 900EF8CD1DE55A4100BFF28A /* main.m */; };
+		900EF8D11DE55A4100BFF28A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 900EF8D01DE55A4100BFF28A /* AppDelegate.m */; };
+		900EF8D41DE55A4100BFF28A /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 900EF8D31DE55A4100BFF28A /* ViewController.mm */; };
+		900EF8D71DE55A4100BFF28A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900EF8D51DE55A4100BFF28A /* Main.storyboard */; };
+		900EF8D91DE55A4100BFF28A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 900EF8D81DE55A4100BFF28A /* Assets.xcassets */; };
+		900EF8DC1DE55A4100BFF28A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 900EF8DA1DE55A4100BFF28A /* LaunchScreen.storyboard */; };
+		9066D4E91DE81374009274A5 /* RecogizeCardManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9066D4E81DE81374009274A5 /* RecogizeCardManager.mm */; };
+		9066D4ED1DE82930009274A5 /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 9066D4EC1DE82930009274A5 /* tessdata */; };
+		A99ACBB3A9ED8BFC41BE504D /* libPods-身份证识别(openCV+TesseractOCR).a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FEF3B943B3E741FCBE8BB20 /* libPods-身份证识别(openCV+TesseractOCR).a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0FEF3B943B3E741FCBE8BB20 /* libPods-身份证识别(openCV+TesseractOCR).a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-身份证识别(openCV+TesseractOCR).a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4F70F7270936676A1427BE /* Pods-身份证识别(openCV+TesseractOCR).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-身份证识别(openCV+TesseractOCR).debug.xcconfig"; path = "Pods/Target Support Files/Pods-身份证识别(openCV+TesseractOCR)/Pods-身份证识别(openCV+TesseractOCR).debug.xcconfig"; sourceTree = "<group>"; };
+		900EF8C91DE55A4100BFF28A /* 身份证识别(openCV+TesseractOCR).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "身份证识别(openCV+TesseractOCR).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		900EF8CD1DE55A4100BFF28A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		900EF8CF1DE55A4100BFF28A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		900EF8D01DE55A4100BFF28A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		900EF8D21DE55A4100BFF28A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		900EF8D31DE55A4100BFF28A /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		900EF8D61DE55A4100BFF28A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		900EF8D81DE55A4100BFF28A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		900EF8DB1DE55A4100BFF28A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		900EF8DD1DE55A4100BFF28A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9066D4E71DE81374009274A5 /* RecogizeCardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecogizeCardManager.h; sourceTree = "<group>"; };
+		9066D4E81DE81374009274A5 /* RecogizeCardManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RecogizeCardManager.mm; sourceTree = "<group>"; };
+		9066D4EC1DE82930009274A5 /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		C4C5161AC995AD2EBE39C679 /* Pods-身份证识别(openCV+TesseractOCR).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-身份证识别(openCV+TesseractOCR).release.xcconfig"; path = "Pods/Target Support Files/Pods-身份证识别(openCV+TesseractOCR)/Pods-身份证识别(openCV+TesseractOCR).release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		900EF8C61DE55A4100BFF28A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A99ACBB3A9ED8BFC41BE504D /* libPods-身份证识别(openCV+TesseractOCR).a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E9DE38DC1DDE54EC8C2B3EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FEF3B943B3E741FCBE8BB20 /* libPods-身份证识别(openCV+TesseractOCR).a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		900EF8C01DE55A4000BFF28A = {
+			isa = PBXGroup;
+			children = (
+				900EF8CB1DE55A4100BFF28A /* 身份证识别(openCV+TesseractOCR) */,
+				900EF8CA1DE55A4100BFF28A /* Products */,
+				A906F387EC7906A6802EE07C /* Pods */,
+				2E9DE38DC1DDE54EC8C2B3EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		900EF8CA1DE55A4100BFF28A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				900EF8C91DE55A4100BFF28A /* 身份证识别(openCV+TesseractOCR).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		900EF8CB1DE55A4100BFF28A /* 身份证识别(openCV+TesseractOCR) */ = {
+			isa = PBXGroup;
+			children = (
+				9066D4EC1DE82930009274A5 /* tessdata */,
+				900EF8CF1DE55A4100BFF28A /* AppDelegate.h */,
+				900EF8D01DE55A4100BFF28A /* AppDelegate.m */,
+				900EF8D21DE55A4100BFF28A /* ViewController.h */,
+				900EF8D31DE55A4100BFF28A /* ViewController.mm */,
+				9066D4E71DE81374009274A5 /* RecogizeCardManager.h */,
+				9066D4E81DE81374009274A5 /* RecogizeCardManager.mm */,
+				900EF8D51DE55A4100BFF28A /* Main.storyboard */,
+				900EF8D81DE55A4100BFF28A /* Assets.xcassets */,
+				900EF8DA1DE55A4100BFF28A /* LaunchScreen.storyboard */,
+				900EF8DD1DE55A4100BFF28A /* Info.plist */,
+				900EF8CC1DE55A4100BFF28A /* Supporting Files */,
+			);
+			path = "身份证识别(openCV+TesseractOCR)";
+			sourceTree = "<group>";
+		};
+		900EF8CC1DE55A4100BFF28A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				900EF8CD1DE55A4100BFF28A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A906F387EC7906A6802EE07C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F4F70F7270936676A1427BE /* Pods-身份证识别(openCV+TesseractOCR).debug.xcconfig */,
+				C4C5161AC995AD2EBE39C679 /* Pods-身份证识别(openCV+TesseractOCR).release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		900EF8C81DE55A4100BFF28A /* 身份证识别(openCV+TesseractOCR) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 900EF8E01DE55A4100BFF28A /* Build configuration list for PBXNativeTarget "身份证识别(openCV+TesseractOCR)" */;
+			buildPhases = (
+				4C11E3C22E5EEB9728FB5949 /* 📦 Check Pods Manifest.lock */,
+				900EF8C51DE55A4100BFF28A /* Sources */,
+				900EF8C61DE55A4100BFF28A /* Frameworks */,
+				900EF8C71DE55A4100BFF28A /* Resources */,
+				7ED6C5B798BB41DBC2361AD1 /* 📦 Embed Pods Frameworks */,
+				CECAF28C962FB92FFE57171E /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "身份证识别(openCV+TesseractOCR)";
+			productName = "身份证识别(openCV+TesseractOCR)";
+			productReference = 900EF8C91DE55A4100BFF28A /* 身份证识别(openCV+TesseractOCR).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		900EF8C11DE55A4000BFF28A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ls;
+				TargetAttributes = {
+					900EF8C81DE55A4100BFF28A = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = CYCCL9GT7N;
+					};
+				};
+			};
+			buildConfigurationList = 900EF8C41DE55A4000BFF28A /* Build configuration list for PBXProject "身份证识别(openCV+TesseractOCR)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 900EF8C01DE55A4000BFF28A;
+			productRefGroup = 900EF8CA1DE55A4100BFF28A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				900EF8C81DE55A4100BFF28A /* 身份证识别(openCV+TesseractOCR) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		900EF8C71DE55A4100BFF28A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900EF8DC1DE55A4100BFF28A /* LaunchScreen.storyboard in Resources */,
+				9066D4ED1DE82930009274A5 /* tessdata in Resources */,
+				900EF8D91DE55A4100BFF28A /* Assets.xcassets in Resources */,
+				900EF8D71DE55A4100BFF28A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4C11E3C22E5EEB9728FB5949 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7ED6C5B798BB41DBC2361AD1 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-身份证识别(openCV+TesseractOCR)/Pods-身份证识别(openCV+TesseractOCR)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CECAF28C962FB92FFE57171E /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-身份证识别(openCV+TesseractOCR)/Pods-身份证识别(openCV+TesseractOCR)-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		900EF8C51DE55A4100BFF28A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				900EF8D41DE55A4100BFF28A /* ViewController.mm in Sources */,
+				9066D4E91DE81374009274A5 /* RecogizeCardManager.mm in Sources */,
+				900EF8D11DE55A4100BFF28A /* AppDelegate.m in Sources */,
+				900EF8CE1DE55A4100BFF28A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		900EF8D51DE55A4100BFF28A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900EF8D61DE55A4100BFF28A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		900EF8DA1DE55A4100BFF28A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				900EF8DB1DE55A4100BFF28A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		900EF8DE1DE55A4100BFF28A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		900EF8DF1DE55A4100BFF28A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		900EF8E11DE55A4100BFF28A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4F70F7270936676A1427BE /* Pods-身份证识别(openCV+TesseractOCR).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "身份证识别(openCV+TesseractOCR)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ls.------openCV-TesseractOCR-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		900EF8E21DE55A4100BFF28A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4C5161AC995AD2EBE39C679 /* Pods-身份证识别(openCV+TesseractOCR).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "身份证识别(openCV+TesseractOCR)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ls.------openCV-TesseractOCR-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		900EF8C41DE55A4000BFF28A /* Build configuration list for PBXProject "身份证识别(openCV+TesseractOCR)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900EF8DE1DE55A4100BFF28A /* Debug */,
+				900EF8DF1DE55A4100BFF28A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		900EF8E01DE55A4100BFF28A /* Build configuration list for PBXNativeTarget "身份证识别(openCV+TesseractOCR)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				900EF8E11DE55A4100BFF28A /* Debug */,
+				900EF8E21DE55A4100BFF28A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 900EF8C11DE55A4000BFF28A /* Project object */;
+}
